@@ -36,7 +36,6 @@ nav ul {
 }
 
 nav ul li {
-  display: inline;
   margin-right: 10px;
 }
 
@@ -118,13 +117,11 @@ button:hover, a:hover, a:focus {
 }
 
 .services ul, .team ul, .portfolio ul {
-  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .services li, .team li, .portfolio li {
-  width: 220px;
   margin: 20px;
   background-color: #FFFFFF;
 }
