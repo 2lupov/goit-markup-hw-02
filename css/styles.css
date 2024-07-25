@@ -16,7 +16,7 @@ header {
   background-color: #f8f9fa;
 }
 
-.logo {
+.logo-text {
   font-family: "Raleway", sans-serif; /* Задано стиль font-family */
   font-weight: 700; /* Задано стиль font-weight */
   font-size: 18px; /* Задано стиль font-size */
@@ -26,13 +26,16 @@ header {
   color: #4d5ae5; /* Задано стиль color */
 }
 
-.logo .logo-text {
+.logo-text .logo-span {
   color: #2e2f42; /* Задано стиль color для span */
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Додано для центрування */
 }
 
 nav ul li {
@@ -54,6 +57,14 @@ nav ul li {
 
 .contact-info {
   font-style: normal;
+}
+
+.contact-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Додано для центрування */
 }
 
 .contact-link {
@@ -187,4 +198,3 @@ button:hover, a:hover, a:focus {
 .footer .logo span {
   color: #f4f4fd;
 }
-
