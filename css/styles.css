@@ -12,30 +12,28 @@ a {
 
 header {
   text-align: center;
-  padding: 20px;
   background-color: #f8f9fa;
 }
 
 .logo-text {
-  font-family: "Raleway", sans-serif; /* Задано стиль font-family */
-  font-weight: 700; /* Задано стиль font-weight */
-  font-size: 18px; /* Задано стиль font-size */
-  line-height: 1.17; /* Задано стиль line-height */
-  letter-spacing: 0.03em; /* Задано стиль letter-spacing */
-  text-transform: uppercase; /* Задано стиль text-transform */
-  color: #4d5ae5; /* Задано стиль color */
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-text .logo-span {
-  color: #2e2f42; /* Задано стиль color для span */
+  color: #2e2f42;
 }
 
 nav ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Додано для центрування */
+  justify-content: center;
 }
 
 nav ul li {
@@ -43,8 +41,8 @@ nav ul li {
 }
 
 .nav-link {
-  font-weight: 500; /* Задано стиль font-weight */
-  font-size: 16px; /* Задано стиль font-size */
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -61,10 +59,9 @@ nav ul li {
 
 .contact-info ul {
   list-style-type: none;
-  padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Додано для центрування */
+  justify-content: center;
 }
 
 .contact-link {
@@ -94,14 +91,12 @@ button:hover, a:hover, a:focus {
   background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
-  padding: 100px 20px;
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
 }
 
@@ -113,8 +108,6 @@ button:hover, a:hover, a:focus {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
 }
 
 .hero-button:hover,
@@ -125,7 +118,6 @@ button:hover, a:hover, a:focus {
 .services {
   background-color: #F4F4FD;
   text-align: center;
-  padding: 50px 20px;
 }
 
 .services ul, .team ul, .portfolio ul {
@@ -134,7 +126,6 @@ button:hover, a:hover, a:focus {
 }
 
 .services li, .team li, .portfolio li {
-  margin: 20px;
   background-color: #FFFFFF;
 }
 
