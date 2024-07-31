@@ -15,7 +15,7 @@ header {
   background-color: #f8f9fa;
 }
 
-.logo-text {
+.logo {
   /* Логотипу в класі заданий стиль font-family: "Raleway", sans-serif, для визначення шрифту логотипа */
   font-family: "Raleway", sans-serif;
   /* Логотипу в класі заданий стиль font-weight: 700 для визначення жирності шрифту */
