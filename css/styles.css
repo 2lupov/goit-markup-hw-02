@@ -1,199 +1,194 @@
+/* ----------HEADER----------- */
+.header-logo {
+  font-family: "Raleway", sans-serif; /* Встановлення шрифту */
+  font-weight: 700; /* Жирність шрифту */
+  font-size: 18px; /* Розмір шрифту */
+  line-height: 1.17; /* Простір між рядками */
+  letter-spacing: 0.03em; /* Відступ між літерами */
+  text-transform: uppercase; /* Відображення літер у верхньому регістрі */
+  color: #4d5ae5; /* Колір тексту */
+}
+
+.header-logo-studio {
+  color: #2e2f42; /* Колір тексту для елемента .header-logo-studio */
+}
+
+.header-menu-link {
+  font-weight: 500; /* Жирність шрифту для посилань меню */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #2e2f42; /* Колір тексту */
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf; /* Колір тексту при наведенні або фокусі */
+}
+
+/* ----------BODY----------- */
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #FFFFFF;
-  margin: 0;
+  font-family: "Roboto", sans-serif; /* Основний шрифт сайту */
+  color: #434455; /* Основний колір тексту */
+  background-color: #FFFFFF; /* Фонова заливка сторінки */
+  margin: 0; /* Відсутність зовнішніх відступів */
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-header {
-  text-align: center;
-  background-color: #f8f9fa;
-}
-
-.logo {
-  /* Встановлено стилі для логотипу в хедері */
-  font-family: "Raleway", sans-serif; /* font-family: "Raleway", sans-serif, для визначення шрифту логотипа */
-  font-weight: 700; /* font-weight: 700 для визначення жирності шрифту */
-  font-size: 18px; /* font-size: 18px для визначення розміру шрифту */
-  line-height: 1.17; /* line-height: 1.17 для визначення простору між рядками */
-  letter-spacing: 0.03em; /* letter-spacing: 0.03em для визначення відступів між літерами */
-  text-transform: uppercase; /* text-transform: uppercase для визначення способу відображення літер */
-  color: #4d5ae5; /* color: #4d5ae5 для визначення кольору тексту */
-}
-
-.logo .logo-detail span {
-  /* span-ну в класі заданий стиль color зі значенням #2e2f42 */
-  color: #2e2f42;
+  color: inherit; /* Спадковий колір для посилань */
+  text-decoration: none; /* Відсутність підкреслення */
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  justify-content: center; /* Центрування навігації */
+  list-style-type: none; /* Відсутність маркерів списку */
+  margin: 0; /* Відсутність зовнішніх відступів */
+  justify-content: center; /* Центрування списку */
 }
 
 nav ul li {
-  margin-right: 10px;
-}
-
-.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+  margin-right: 10px; /* Відступ між елементами списку */
 }
 
 .contact-info {
-  font-style: normal;
+  font-style: normal; /* Нормальний стиль шрифту */
 }
 
 .contact-info ul {
-  list-style-type: none;
-  margin: 0;
-  justify-content: center; /* Центрування контактів */
+  list-style-type: none; /* Відсутність маркерів списку */
+  margin: 0; /* Відсутність зовнішніх відступів */
+  justify-content: center; /* Центрування списку */
 }
 
 .contact-link {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #434455; /* Колір тексту */
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: #404bbf; /* Колір тексту при наведенні або фокусі */
 }
 
 h1, h2, h3 {
-  font-weight: 700;
+  font-weight: 700; /* Жирність для заголовків */
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer; /* Вказівник у вигляді руки при наведенні */
 }
 
 button:hover, a:hover, a:focus {
-  color: #404bbf;
+  color: #404bbf; /* Колір тексту при наведенні або фокусі */
 }
 
 .hero {
-  background-color: #2e2f42;
-  color: #ffffff;
-  text-align: center;
+  background-color: #2e2f42; /* Фоновий колір секції */
+  color: #ffffff; /* Колір тексту */
+  text-align: center; /* Центрування тексту */
 }
 
 .hero-title {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
+  font-size: 56px; /* Розмір шрифту */
+  line-height: 1.07; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #ffffff; /* Колір тексту */
 }
 
 .hero-button {
-  background-color: #4D5AE5;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  border: none;
+  background-color: #4D5AE5; /* Фоновий колір кнопки */
+  font-family: "Roboto", sans-serif; /* Шрифт кнопки */
+  font-weight: 500; /* Жирність шрифту */
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.04em; /* Відступ між літерами */
+  color: #ffffff; /* Колір тексту */
+  border: none; /* Відсутність обвідки */
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404BBF;
+  background-color: #404BBF; /* Фоновий колір кнопки при наведенні або фокусі */
 }
 
 .services {
-  background-color: #F4F4FD;
+  background-color: #F4F4FD; /* Фоновий колір секції */
 }
 
 .section-header {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-  font-weight: 500;
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 1.11; /* Простір між рядками */
+  text-align: center; /* Центрування тексту */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  text-transform: capitalize; /* Початок кожного слова з великої літери */
+  color: #2e2f42; /* Колір тексту */
+  font-weight: 500; /* Жирність шрифту */
 }
 
 .services ul, .team ul, .portfolio ul {
-  justify-content: space-around;
+  justify-content: space-around; /* Вирівнювання елементів списку */
 }
 
 .services li, .team li, .portfolio li {
-  background-color: #FFFFFF;
+  background-color: #FFFFFF; /* Фоновий колір елементів списку */
 }
 
 .service-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #2e2f42; /* Колір тексту */
 }
 
 .service-description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #434455; /* Колір тексту */
 }
 
 .team-member-name {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: 700; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #2e2f42; /* Колір тексту */
 }
 
 .team-member-role {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-weight: 400; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #434455; /* Колір тексту */
 }
 
 .portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+  font-weight: 500; /* Жирність шрифту */
+  font-size: 20px; /* Розмір шрифту */
+  line-height: 1.2; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #2e2f42; /* Колір тексту */
 }
 
 .portfolio-category {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  font-weight: 400; /* Жирність шрифту */
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #434455; /* Колір тексту */
 }
 
 .footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
+  background-color: #2e2f42; /* Фоновий колір футера */
+  color: #f4f4fd; /* Колір тексту */
 }
 
 .footer-description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+  line-height: 1.5; /* Простір між рядками */
+  letter-spacing: 0.02em; /* Відступ між літерами */
+  color: #f4f4fd; /* Колір тексту */
 }
 
 .footer .logo span {
-  color: #f4f4fd;
+  color: #f4f4fd; /* Колір тексту для span у логотипі футера */
 }
