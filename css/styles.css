@@ -26,7 +26,7 @@ header {
   color: #4d5ae5; /* color: #4d5ae5 для визначення кольору тексту */
 }
 
-.logo .logo-detail {
+.logo .logo-detail span {
   /* span-ну в класі заданий стиль color зі значенням #2e2f42 */
   color: #2e2f42;
 }
